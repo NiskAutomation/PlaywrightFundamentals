@@ -61,11 +61,33 @@ Welcome to <strong>Playwright Fundamentals</strong>! This repository contains st
 ```
 PlaywrightFundamentals/
 ├── 📁 tests/
-│   └── 📄 example.spec.ts          # Sample test specifications
-├── 📄 playwright.config.ts         # Playwright configuration
-├── 📄 package.json                   # Project dependencies
-├── 📄 .gitignore                     # Ignored files and folders
-└── 📄 README.md                      # Project documentation
+│   ├── 📁 01_Basics/                    # Basics of Playwright
+│   ├── 📁 02_first_tests/               # First test examples
+│   ├── 📁 03_Locators_Commands/         # Locators and commands
+│   ├── 📁 04_Session_Storage/           # Session storage handling
+│   ├── 📁 05_Allure_Reporting/          # Allure reporting integration
+│   ├── 📁 06_Multiple_Element_/         # Multiple element handling
+│   ├── 📁 07_WebTables/                 # Web tables testing
+│   ├── 📁 08_Web_Select_Frames_Iframe/  # Web select, frames, iframes
+│   ├── 📁 09_Frame_Iframe/              # Frames and iframes
+│   ├── 📁 10_Keyboard_Hover_Drag_Drop/  # Keyboard, hover, drag & drop
+│   ├── 📁 11_JS_Alerts/                 # JavaScript alerts
+│   ├── 📁 12_Handle_SVG/                # SVG handling
+│   ├── 📁 13_Shadow_DOM/                # Shadow DOM testing
+│   ├── 📁 14_FileUpload/                # File upload tests
+│   ├── 📁 15_File_Download/             # File download tests
+│   ├── 📁 16_Scroll_toElement/          # Scroll to element
+│   ├── 📁 17_Expect_Assertions/         # Expect assertions
+│   ├── 📁 18_Test_hooks/                # Test hooks (before/after)
+│   ├── 📁 19_Data_Driven_Testing/       # Data-driven testing
+│   ├── 📁 20_Page_Object_Model/         # Page Object Model
+│   ├── 📁 21_Fixture/                   # Playwright fixtures
+│   ├── 📁 22_Misc_Concepts/             # Miscellaneous concepts
+│   └── 📁 23_Advance_Framework/         # Advanced framework topics
+├── 📄 playwright.config.ts              # Playwright configuration
+├── 📄 package.json                      # Project dependencies
+├── 📄 .gitignore                        # Ignored files and folders
+└── 📄 README.md                         # Project documentation
 ```
 
 ---
