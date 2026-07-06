@@ -41,11 +41,21 @@
 
 ## 🚀 About This Project
 
-Welcome to <strong>Playwright Fundamentals</strong>! This repository contains starter examples and configurations to help you learn and implement robust browser automation and end-to-end testing using [Microsoft Playwright](https://playwright.dev) with TypeScript.
+Welcome to <strong>Playwright Fundamentals</strong>! This repository contains hands-on Playwright examples and configuration files to help you learn browser automation and end-to-end testing with [Microsoft Playwright](https://playwright.dev) and TypeScript.
+
+This project is designed for beginners and intermediate learners who want to practice:
+
+- writing reliable browser tests
+- working with locators and assertions
+- handling frames, alerts, files, downloads, and drag-and-drop
+- running tests in different browser modes
+- generating reports and debugging failures
 
 ---
 
 ## 🛠️ Tech Stack
+
+The repository uses the following tools and libraries:
 
 | Technology | Description |
 |------------|-------------|
@@ -57,6 +67,8 @@ Welcome to <strong>Playwright Fundamentals</strong>! This repository contains st
 ---
 
 ## 📂 Project Structure
+
+The test suite is organized by topic so you can explore concepts in a structured way:
 
 ```
 PlaywrightFundamentals/
@@ -92,7 +104,44 @@ PlaywrightFundamentals/
 
 ---
 
-## 🧪 Running Tests
+## 🧪 Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Run the tests
+
+```bash
+# Run all tests
+npx playwright test
+
+# Run a single test file
+npx playwright test tests/02_first/237_BCP_Test_Options.spec.ts
+
+# Run tests in headed mode
+npx playwright test --headed
+
+# Run a specific file in headed mode
+npx playwright test tests/02_first/237_BCP_Test_Options.spec.ts --headed
+```
+
+### 3. View reports
+
+```bash
+# Open the HTML report
+npx playwright show-report
+```
+
+> Use the exact file name with the .spec.ts suffix and the path relative to the repository root when running a single file. The current configuration discovers tests from the tests folder and runs them in Firefox while enabling traces, screenshots, and videos.
+
+### 4. Troubleshooting tips
+
+- If Playwright says no tests were found, verify that the file name ends with .spec.ts and that the path is correct.
+- If a browser is missing, install the required Playwright browser binaries with the Playwright CLI.
+- For detailed debugging, review the generated trace and screenshots in the test-results folder.
 
 ```bash
 # Install dependencies
@@ -119,6 +168,12 @@ npx playwright show-report
 ---
 
 ## 🌐 Supported Browsers
+
+The current setup is configured for Firefox by default, and the project can be extended to run on additional browsers as needed.
+
+- ✅ Firefox
+- ✅ Chromium
+- ✅ WebKit
 
 - ✅ Chromium (Google Chrome / Microsoft Edge)
 - ✅ Firefox
