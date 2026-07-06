@@ -70,37 +70,30 @@ The repository uses the following tools and libraries:
 
 The test suite is organized by topic so you can explore concepts in a structured way:
 
-```
+```text
 PlaywrightFundamentals/
-├── 📁 tests/
-│   ├── 📁 01_Basics/                    # Basics of Playwright
-│   ├── 📁 02_first/                     # First test examples
-│   ├── 📁 03_Locators_Commands/         # Locators and commands
-│   ├── 📁 04_Session_Storage/           # Session storage handling
-│   ├── 📁 05_Allure_Reporting/          # Allure reporting integration
-│   ├── 📁 06_Multiple_Element_/         # Multiple element handling
-│   ├── 📁 07_WebTables/                 # Web tables testing
-│   ├── 📁 08_Web_Select_Frames_Iframe/  # Web select, frames, iframes
-│   ├── 📁 09_Frame_Iframe/              # Frames and iframes
-│   ├── 📁 10_Keyboard_Hover_Drag_Drop/  # Keyboard, hover, drag & drop
-│   ├── 📁 11_JS_Alerts/                 # JavaScript alerts
-│   ├── 📁 12_Handle_SVG/                # SVG handling
-│   ├── 📁 13_Shadow_DOM/                # Shadow DOM testing
-│   ├── 📁 14_FileUpload/                # File upload tests
-│   ├── 📁 15_File_Download/             # File download tests
-│   ├── 📁 16_Scroll_toElement/          # Scroll to element
-│   ├── 📁 17_Expect_Assertions/         # Expect assertions
-│   ├── 📁 18_Test_hooks/                # Test hooks (before/after)
-│   ├── 📁 19_Data_Driven_Testing/       # Data-driven testing
-│   ├── 📁 20_Page_Object_Model/         # Page Object Model
-│   ├── 📁 21_Fixture/                   # Playwright fixtures
-│   ├── 📁 22_Misc_Concepts/             # Miscellaneous concepts
-│   └── 📁 23_Advance_Framework/         # Advanced framework topics
-├── 📄 playwright.config.ts              # Playwright configuration
-├── 📄 package.json                      # Project dependencies
-├── 📄 .gitignore                        # Ignored files and folders
-└── 📄 README.md                         # Project documentation
+├── README.md
+├── package.json
+├── package-lock.json
+├── playwright.config.ts
+├── .gitignore
+├── tests/
+│   ├── 01_Basics/
+│   │   ├── 229_Basics_Test.spec.ts
+│   │   └── 230_Test_Annoations.spec.ts
+│   └── 02_first/
+│       ├── 231_First_Running_Verify.spec.ts
+│       ├── 232_BCP.spec.ts
+│       ├── 233_BCP_MultipleContext.spec.ts
+│       ├── 234_BCP_Multiple_Pages.spec.ts
+│       ├── 235_TEST_I_PW.spec.ts
+│       ├── 236_BCP_TEST_PW.spec.ts
+│       └── 237_BCP_Test_Options.spec.ts
+├── test-results/
+└── playwright-report/
 ```
+
+The folder hierarchy above shows the main project files and the current test examples included in the repository.
 
 ---
 
