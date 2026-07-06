@@ -114,7 +114,7 @@ npx playwright test tests/02_first/237_BCP_Test_Options.spec.ts --headed
 npx playwright show-report
 ```
 
-> Use the exact filename with the .spec.ts suffix and the path relative to the project root when running a single test file.
+> Use the exact filename with the .spec.ts suffix and the path relative to the project root when running a single test file. The current config discovers tests from the root tests folder and runs them in Firefox with tracing, screenshots, and video recording enabled.
 
 ---
 
