@@ -62,7 +62,7 @@ Welcome to <strong>Playwright Fundamentals</strong>! This repository contains st
 PlaywrightFundamentals/
 ├── 📁 tests/
 │   ├── 📁 01_Basics/                    # Basics of Playwright
-│   ├── 📁 02_first_tests/               # First test examples
+│   ├── 📁 02_first/                     # First test examples
 │   ├── 📁 03_Locators_Commands/         # Locators and commands
 │   ├── 📁 04_Session_Storage/           # Session storage handling
 │   ├── 📁 05_Allure_Reporting/          # Allure reporting integration
@@ -101,12 +101,20 @@ npm install
 # Run all tests
 npx playwright test
 
+# Run a specific test file
+npx playwright test tests/02_first/237_BCP_Test_Options.spec.ts
+
 # Run tests in headed mode
 npx playwright test --headed
+
+# Run a specific file in headed mode
+npx playwright test tests/02_first/237_BCP_Test_Options.spec.ts --headed
 
 # Generate and open HTML report
 npx playwright show-report
 ```
+
+> Use the exact filename with the .spec.ts suffix and the path relative to the project root when running a single test file.
 
 ---
 
