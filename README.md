@@ -95,6 +95,11 @@ PlaywrightFundamentals/
 
 The folder hierarchy above shows the main project files and the current test examples included in the repository.
 
+## 🧹 Repository Notes
+
+- Empty learning-topic folders include a `.gitkeep` file so Git can track and preserve the structure.
+- Generated artifacts like reports and traces should stay out of source-control commits unless explicitly needed for sharing debugging context.
+
 ---
 
 ## 🧪 Getting Started
