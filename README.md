@@ -79,21 +79,42 @@ PlaywrightFundamentals/
 ├── .gitignore
 ├── tests/
 │   ├── 01_Basics/
-│   │   ├── 229_Basics_Test.spec.ts
-│   │   └── 230_Test_Annoations.spec.ts
-│   └── 02_first/
-│       ├── 231_First_Running_Verify.spec.ts
-│       ├── 232_BCP.spec.ts
-│       ├── 233_BCP_MultipleContext.spec.ts
-│       ├── 234_BCP_Multiple_Pages.spec.ts
-│       ├── 235_TEST_I_PW.spec.ts
-│       ├── 236_BCP_TEST_PW.spec.ts
-│       └── 237_BCP_Test_Options.spec.ts
+│   ├── 02_first/
+│   ├── 03_Locators_Commands/
+│   │   ├── 238_Locator.spec.ts
+│   │   ├── 239_Project_VWO_Login.spec.ts
+│   │   ├── 240_Xpath.spec.ts
+│   │   ├── 241_Project_03_SignUp_Vwo_PW_Locator.spec.ts
+│   │   ├── 242_Project_03_SignUp_Vwo.spec.ts
+│   │   ├── 243_Playwright_Command.spec.ts
+│   │   ├── 244_Referer_Playwright.spec.ts
+│   │   ├── 245_GetByRole_PW.spec.ts
+│   │   └── 246_PressSequantail.spec.ts
+│   ├── 04_Session_Storage/
+│   ├── 05_Allure_Reporting/
+│   ├── 06_Multiple_Element_/
+│   ├── 07_WebTables/
+│   ├── 08_Web_Select_Frames_Iframe/
+│   ├── 09_Frame_Iframe/
+│   ├── 10_Keyboard_Hover_Drag_Drop/
+│   ├── 11_JS_Alerts/
+│   ├── 12_Handle_SVG/
+│   ├── 13_Shadow_DOM/
+│   ├── 14_FileUpload/
+│   ├── 15_File_Download/
+│   ├── 16_Scroll_toElement/
+│   ├── 17_Expect_Assertions/
+│   ├── 18_Test_hooks/
+│   ├── 19_Data_Driven_Testing/
+│   ├── 20_Page_Object_Model/
+│   ├── 21_Fixture/
+│   ├── 22_Misc_Concepts/
+│   └── 23_Advance_Framework/
 ├── test-results/
 └── playwright-report/
 ```
 
-The folder hierarchy above shows the main project files and the current test examples included in the repository.
+The folder hierarchy above shows the current topic-based learning structure in the repository, with concrete examples already present in the locator and command section.
 
 ## 🧹 Repository Notes
 
