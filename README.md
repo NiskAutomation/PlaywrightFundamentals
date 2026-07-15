@@ -152,7 +152,24 @@ npx playwright test tests/02_first/237_BCP_Test_Options.spec.ts --headed
 ```bash
 # Open the HTML report
 npx playwright show-report
+
+# Generate and open Allure report (local CLI)
+npx allure serve allure-results
 ```
+
+### 3.1 Custom Reporter + Step Visibility
+
+This project also supports a custom TTA HTML report in addition to Playwright and Allure reports.
+
+- Custom reporter file: `utils/CustomReporter.ts`
+- Report output folder: `tta-report/`
+- Latest report entry point: `tta-report/index.html`
+
+To make meaningful step-level output visible in reports:
+
+- group related tests with `test.describe(...)`
+- add business-action steps with `await test.step('VWO Step: ...', async () => { ... })`
+- prefer stable assertions over long static waits
 
 > Use the exact file name with the .spec.ts suffix and the path relative to the repository root when running a single file. The current configuration discovers tests from the tests folder and runs them in Firefox while enabling traces, screenshots, and videos.
 
