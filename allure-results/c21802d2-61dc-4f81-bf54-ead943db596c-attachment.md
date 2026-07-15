@@ -1,0 +1,237 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 04_Session_Storage\248_TestVWODashboard.spec.ts >> go to direct to settings - no login - using storageState
+- Location: tests\04_Session_Storage\248_TestVWODashboard.spec.ts:21:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - paragraph [ref=e5]: Welcome to Wingify! app.vwo.com has transitioned to app.wingify.com. Your plans, features, and data remain unchanged.
+        - link "Learn More" [ref=e6] [cursor=pointer]:
+          - /url: https://vwo.com/product-updates/vwo-wingify-aligning-our-domain/
+          - text: Learn More
+          - img [ref=e7]
+      - button "Close" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - generic:
+      - navigation:
+        - navigation "Main navigation" [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Go to Dashboard" [ref=e15] [cursor=pointer]:
+                - /url: "#/dashboard"
+                - img [ref=e16]
+                - generic [ref=e18]: Dashboard
+            - listitem [ref=e19]:
+              - button "Testing menu" [ref=e20] [cursor=pointer]:
+                - img [ref=e21]
+                - generic [ref=e23]: Testing
+                - img [ref=e24]
+              - generic [ref=e26] [cursor=pointer]: A/B
+              - generic [ref=e27] [cursor=pointer]: Multivariate
+              - generic [ref=e28] [cursor=pointer]: Split URL
+            - listitem [ref=e29]:
+              - button "Insights menu" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+                - generic [ref=e33]: Insights
+                - img [ref=e34]
+              - generic [ref=e36] [cursor=pointer]: Dashboard
+              - generic [ref=e37] [cursor=pointer]: Metric Reports
+              - generic [ref=e38] [cursor=pointer]: Funnel Reports
+              - generic [ref=e39] [cursor=pointer]: Heatmaps
+              - generic [ref=e40] [cursor=pointer]: Session Recordings
+              - generic [ref=e41] [cursor=pointer]: Mobile Recordings
+              - generic [ref=e42] [cursor=pointer]: Forms
+            - listitem [ref=e43]:
+              - button "Insights menu" [ref=e44] [cursor=pointer]:
+                - img [ref=e45]
+                - generic [ref=e47]: Pulse
+                - img [ref=e48]
+              - generic [ref=e50] [cursor=pointer]: Surveys
+              - generic [ref=e51] [cursor=pointer]: Concept Test
+              - generic [ref=e52] [cursor=pointer]: Templates
+              - generic [ref=e53] [cursor=pointer]: Settings
+            - listitem [ref=e54]:
+              - button "Feature Experimentation" [ref=e55] [cursor=pointer]:
+                - img [ref=e56]
+                - generic [ref=e58]: Feature Experimentation
+                - img [ref=e59]
+              - generic [ref=e61] [cursor=pointer]: Feature Flags
+              - generic [ref=e62] [cursor=pointer]: Flag Rollout
+              - generic [ref=e63] [cursor=pointer]: Flag Testing
+              - generic [ref=e64] [cursor=pointer]: Flag Multivariate
+              - generic [ref=e65] [cursor=pointer]: Flag Personalize
+              - generic: Tech Debt
+            - listitem [ref=e66]:
+              - link "Go to Personalize" [ref=e67] [cursor=pointer]:
+                - /url: "#/target/targeting"
+                - img [ref=e68]
+                - generic [ref=e70]: Personalize
+            - listitem [ref=e71]:
+              - link "Go to Web Rollout" [ref=e72] [cursor=pointer]:
+                - /url: "#/deploy/experience"
+                - img [ref=e73]
+                - generic [ref=e76]: Web Rollout
+            - listitem [ref=e77]:
+              - button "Data360 menu" [ref=e78] [cursor=pointer]:
+                - img [ref=e79]
+                - generic [ref=e81]: Data360
+                - img [ref=e82]
+              - generic [ref=e84] [cursor=pointer]: Introduction
+              - generic [ref=e85] [cursor=pointer]: Profiles
+              - generic [ref=e86] [cursor=pointer]: Attributes
+              - generic [ref=e87] [cursor=pointer]: Events
+              - generic [ref=e88] [cursor=pointer]: Segments
+              - generic [ref=e89] [cursor=pointer]: Triggers
+              - generic [ref=e90] [cursor=pointer]: Metrics
+              - generic [ref=e91] [cursor=pointer]: Funnels
+              - generic: Audit
+            - listitem [ref=e92]:
+              - button "Plan menu" [ref=e93] [cursor=pointer]:
+                - img [ref=e95]
+                - generic [ref=e97]: Plan
+                - img [ref=e98]
+              - generic [ref=e100] [cursor=pointer]: Observations
+              - generic [ref=e101] [cursor=pointer]: Hypotheses
+              - generic [ref=e102] [cursor=pointer]: Ideas
+            - listitem
+            - listitem [ref=e103]:
+              - link "Go to Video Library" [ref=e104] [cursor=pointer]:
+                - /url: "#/video-library/"
+                - img [ref=e105]
+                - generic [ref=e107]: Video Library
+              - link "Go to Upgrade" [ref=e108] [cursor=pointer]:
+                - /url: "#/settings/upgrade/testing"
+                - img [ref=e109]
+                - generic [ref=e111]: Upgrade
+              - button "Configurations menu" [ref=e112] [cursor=pointer]:
+                - img [ref=e113]
+                - generic [ref=e115]: Configurations
+                - img [ref=e116]
+              - generic [ref=e118] [cursor=pointer]: Websites and Apps
+              - generic [ref=e119] [cursor=pointer]: Integrations
+              - generic [ref=e120] [cursor=pointer]: Pages
+            - listitem [ref=e121]:
+              - link "Go to Settings" [ref=e122] [cursor=pointer]:
+                - /url: "#/settings/accounts/general"
+                - img [ref=e123]
+                - generic [ref=e125]: Settings
+            - listitem [ref=e126]:
+              - link "View Product Updates (opens in new tab)" [ref=e127] [cursor=pointer]:
+                - /url: http://vwo.com/product-updates
+                - img [ref=e128]
+                - generic [ref=e130]: Updates
+                - img [ref=e132]
+              - button "Toggle navigation menu" [ref=e135] [cursor=pointer]:
+                - img [ref=e136]
+    - banner [ref=e138]:
+      - link "Go to dashboard" [ref=e140] [cursor=pointer]:
+        - /url: "#/dashboard"
+        - img "Wingify ABTasty logo" [ref=e141]
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e145]:
+            - button "Your trial is over" [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]: Your trial is over
+            - button "Upgrade" [ref=e148] [cursor=pointer]
+          - generic [ref=e151]:
+            - 'button "Selected value: Singleuseemail" [ref=e158] [cursor=pointer]':
+              - generic [ref=e160]:
+                - generic [ref=e161]: Singleuseemail
+                - generic [ref=e162]: "#1227004"
+              - img [ref=e163]
+            - button "Copy account ID to clipboard" [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+          - button "Need Help?" [ref=e172] [cursor=pointer]:
+            - img [ref=e173]
+            - generic [ref=e175]: Need Help?
+          - button "View Account Usage Activity" [ref=e181] [cursor=pointer]:
+            - img [ref=e182]
+          - generic "Notifications" [ref=e186]:
+            - dialog "Notification dialog" [ref=e187]:
+              - button "Open notifications" [ref=e188] [cursor=pointer]:
+                - img [ref=e189]
+        - button "Open user menu" [ref=e193] [cursor=pointer]:
+          - img "csadadsa dasdas" [ref=e194]
+    - main "Application main content" [ref=e195]:
+      - generic [ref=e201]:
+        - list [ref=e203]:
+          - listitem [ref=e204] [cursor=pointer]:
+            - button "View dashboard" [ref=e206]: Dashboard
+          - listitem [ref=e207] [cursor=pointer]:
+            - button "Get started with Wingify" [ref=e208]: Get Started
+          - listitem [ref=e209] [cursor=pointer]:
+            - button "View campaigns overview" [ref=e211]: Campaigns Overview
+        - generic [ref=e216]: Loading...
+      - generic [ref=e220]:
+        - list [ref=e222]:
+          - listitem [ref=e223] [cursor=pointer]:
+            - button "Get Support" [ref=e224]:
+              - img [ref=e225]
+              - generic [ref=e227]: Get Support
+          - listitem [ref=e228] [cursor=pointer]:
+            - link "Developer resources" [ref=e229]:
+              - /url: "#/developers"
+              - img [ref=e230]
+              - generic [ref=e232]: Developer resources
+          - listitem [ref=e233] [cursor=pointer]:
+            - link "Give us a call" [ref=e234]:
+              - /url: tel:+14153493207
+              - img [ref=e235]
+              - generic [ref=e237]: +1-415-349-3207
+        - list [ref=e239]:
+          - listitem [ref=e240] [cursor=pointer]:
+            - button "Show logged in users" [ref=e241]:
+              - img [ref=e242]
+              - generic [ref=e244]: Show logged in users
+          - listitem [ref=e245] [cursor=pointer]:
+            - link "Uptime Status" [ref=e246]:
+              - /url: https://secure-stats.pingdom.com/yd4ybaf8hhh2
+              - img [ref=e247]
+              - generic [ref=e249]: Uptime Status
+        - generic [ref=e251]:
+          - link "Visit wingify.com" [ref=e252] [cursor=pointer]:
+            - /url: https://wingify.com
+            - img "Wingify logo" [ref=e253]
+          - generic [ref=e254]:
+            - img [ref=e255]
+            - generic [ref=e257]: Language option is now under your profile icon in the top bar.
+  - img [ref=e258]:
+    - generic: "'"
+    - generic:
+      - img
+  - img [ref=e259]
+  - img [ref=e260]
+  - img [ref=e261]
+  - img [ref=e262]
+  - img [ref=e263]
+  - img [ref=e264]
+  - img [ref=e265]
+  - img [ref=e266]
+  - img [ref=e267]
+  - img [ref=e268]
+  - img [ref=e269]
+  - img [ref=e270]
+  - img [ref=e271]
+  - img [ref=e272]
+  - img [ref=e273]
+  - img [ref=e274]
+  - img [ref=e275]
+  - textbox [ref=e276]
+```

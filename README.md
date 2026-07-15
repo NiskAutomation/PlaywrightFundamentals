@@ -76,6 +76,8 @@ PlaywrightFundamentals/
 ├── package.json
 ├── package-lock.json
 ├── playwright.config.ts
+├── explain-playwright-skill.md
+├── user-session.json
 ├── .gitignore
 ├── tests/
 │   ├── 01_Basics/
@@ -110,11 +112,15 @@ PlaywrightFundamentals/
 │   ├── 21_Fixture/
 │   ├── 22_Misc_Concepts/
 │   └── 23_Advance_Framework/
+├── utils/
+│   └── CustomReporter.ts
+├── allure-results/
 ├── test-results/
-└── playwright-report/
+├── playwright-report/
+└── tta-report/
 ```
 
-The folder hierarchy above shows the current topic-based learning structure in the repository, with concrete examples already present in the locator and command section.
+The parent hierarchy above shows the core test areas, reporting outputs, and custom utilities used in this repository.
 
 ## 🧹 Repository Notes
 
