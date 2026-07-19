@@ -94,8 +94,15 @@ PlaywrightFundamentals/
 │   │   └── 246_PressSequantail.spec.ts
 │   ├── 04_Session_Storage/
 │   ├── 05_Allure_Reporting/
-│   ├── 06_Multiple_Element_/
+│   ├── 06_Multiple_Element/
 │   ├── 07_WebTables/
+│   │   ├── 252_WebTables_Dynamic_Xpath.spec.ts
+│   │   ├── 253_WebTable_Dynamic.spec.ts
+│   │   ├── 254_Filter_PageLocator.spec.ts
+│   │   ├── 255_WebTables_Xpath.spec.ts
+│   │   ├── 256_WebTables_Xpath.spec.ts
+│   │   ├── 257_WebTables_Xpath_Pagination.spec.ts
+│   │   └── 258_WebTables_Xpath_Pagination_Function.spec.ts
 │   ├── 08_Web_Select_Frames_Iframe/
 │   ├── 09_Frame_Iframe/
 │   ├── 10_Keyboard_Hover_Drag_Drop/
