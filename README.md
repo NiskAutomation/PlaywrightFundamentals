@@ -122,6 +122,24 @@ PlaywrightFundamentals/
 
 The parent hierarchy above shows the core test areas, reporting outputs, and custom utilities used in this repository.
 
+## Web Tables Examples
+
+The 07_WebTables folder now includes focused examples for dynamic XPath usage, locator filtering, and pagination handling:
+
+- 252_WebTables_Dynamic_Xpath.spec.ts: dynamic XPath practice against web table rows
+- 253_WebTable_Dynamic.spec.ts: identifies terminated employees and triggers the matching delete action from the same row
+- 254_Filter_PageLocator.spec.ts: uses Playwright locator filtering patterns for row selection
+- 255_WebTables_Xpath.spec.ts: basic XPath traversal on table content
+- 256_WebTables_Xpath.spec.ts: additional XPath table navigation examples
+- 257_WebTables_Xpath_Pagination.spec.ts: pagination flow across multi-page table data
+- 258_WebTables_Xpath_Pagination_Function.spec.ts: reusable helper function for finding a row by name across paginated results
+
+Run only the web tables examples with:
+
+```bash
+npx playwright test tests/07_WebTables
+```
+
 ## 🧹 Repository Notes
 
 - Empty learning-topic folders include a `.gitkeep` file so Git can track and preserve the structure.
