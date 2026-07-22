@@ -106,7 +106,14 @@ PlaywrightFundamentals/
 │   ├── 08_Web_Select_Frames_Iframe/
 │   ├── 09_Frame_Iframe/
 │   ├── 10_Keyboard_Hover_Drag_Drop/
+│   │   ├── 265_keyboard.spec.ts
+│   │   ├── 266_SpiceJet_Hover.spec.ts
+│   │   ├── 267_Drag_and_Drop.spec.ts
+│   │   ├── 268_Advance_Drag_and_Drop.spec.ts
+│   │   ├── 269_Context_menu.spec.ts
+│   │   └── learning.md
 │   ├── 11_JS_Alerts/
+│   │   └── 270_JS_Alert.spec.ts
 │   ├── 12_Handle_SVG/
 │   ├── 13_Shadow_DOM/
 │   ├── 14_FileUpload/
